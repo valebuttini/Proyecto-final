@@ -8,7 +8,7 @@
   
   <script>
   export default {
-    name: 'CatalogoApp',
+    name: 'CatalogoPag',
   props: {
     imagen: {
       type: String,
@@ -29,4 +29,4 @@
   <style scoped>
 
 
-  </style>gvb
+  </style>
