@@ -1,17 +1,20 @@
 <template>
   <div id="app-component">
     <MiCompo/>
+    <CatalogoApp/>
 
   </div>
 </template>
 
 <script>
 import MiCompo from './components/MiCompo.vue';
+import CatalogoApp from './components/CatalogoApp.vue';
 
 export default {
   name: 'App',
   components: {
     MiCompo,
+    CatalogoApp,
   },
 
 };
