@@ -1,19 +1,21 @@
 <template>
   <div id="app-component">
-    <MiCompo/>
-    <CatalogoPag/>
+    <!-- <MiCompo/> -->
+    <CatalogoPag>
+      hola
+    </CatalogoPag>
 
   </div>
 </template>
 
 <script>
-import MiCompo from './components/MiCompo.vue';
+// import MiCompo from './components/MiCompo.vue';
 import CatalogoPag from './components/CatalogoPag.vue';
 
 export default {
   name: 'App',
   components: {
-    MiCompo,
+    // MiCompo,
     CatalogoPag,
   },
 
